@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Witam Generator</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    #output {
+      margin-top: 30px;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Generator "witam"</h1>
+  <button onclick="showWitam()">Kliknij mnie</button>
+  <div id="output"></div>
+
+  <script>
+    function showWitam() {
+      document.getElementById("output").innerText = "witam";
+    }
+  </script>
+</body>
+</html>
